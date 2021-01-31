@@ -1,0 +1,156 @@
+<
+<!Doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+    <title>web design</title>
+ <meta name ="description" content="hello guys ">
+    <link rel="stylesheet" href="style.css"/>    
+    <style>
+            div{
+            padding:10px;
+            width:830px;
+            height:380px;
+            margin-bottom:10px;
+
+
+        }
+        header{
+        background-color:lightgray;
+        padding:7px;
+        margin:0px;
+        text-align: center;
+        font-size: 30;
+        text-transform: uppercase;
+        color:white
+
+        }
+        nav{
+        background-color: black;
+        }
+        a{
+        text-decoration: none;
+        color:white;
+        }
+        a:after{
+        content:"|";
+        }
+        a:last-child{
+        content: ""
+        }
+
+        nav ul li{
+
+        display: inline-block;
+        text-transform: capitalize;
+
+
+        }
+        nav ul{
+        padding:10px;
+        margin:3px;
+        }
+        #button{
+        background-color:antiquewhite;
+        }
+
+        #start{
+        background-color: aqua;
+        color:white;
+        display:block;
+        padding:5px;
+        width:100px;
+        border-radius:3px;
+        margin-bottom:3px;
+        border: 1px solid aqua;
+        cursor:pointer;
+        margin:10px auto;
+        }
+        #up{
+        background-color: white;
+        border: 1px solid white;
+        color:black;
+        display:block;
+        padding:5px;
+        width:100px;
+        border-radius:3px;
+        cursor:pointer;
+        margin:5px auto;
+
+        }
+        article{
+        text-align: center;
+        margin:0 auto;
+        }
+        h3{
+        text-transform: uppercase;
+        color:white;
+        }
+        p{
+        line-height: 1px;
+        }
+    </style>
+     <script  src="test.js"></script>
+    </head>
+    <body>
+        
+        <div id="button">
+            <section>
+            <header>tlicker</header>
+            <nav>
+            <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">contact</a></li>
+            </ul>
+            </nav>
+            <article>
+                <h3>tourism</h3>
+                <p>Travel makes one modest</p>
+                <p>You see what a tiny place you occupy in the world</p>
+
+            </article>
+            </section>
+            <section>
+                <button onclick="#login" id="start">get started</button>
+                <button id ="up">sign up</button>
+            </section>
+            
+        </div>
+        <!-- form el log in-->
+        <div id="login">
+        <form>
+        <label>User Name</label>
+          <input type="text" placeholder="Enter username">
+          <label>password</label>
+          <input type="password" placeholder="Enter password">
+          <button onclick="window.location='file:///C:/Users/user/Desktop/submit.html';" > Login</button>
+          <input type="checkbox">Remember me
+           <button type="submit">cancel</button>
+          <p>forget <a href="#">password</a>?</p>
+        </form>
+        </div>
+        <!-- form el sign up -->
+        <div id="sign up">
+        <form>
+            <h1>sign up</h1>
+            <p>please fill in this form to create an account</p>
+            <label>Email</label>
+            <input type="text" placeholder="enter Email">
+            <label>password</label>
+            <input type="password" placeholder="enter password">
+            <label> repeat password</label>
+            <input type="password" placeholder="repeat password">
+             <input type="checkbox">Remember me
+            <span>By creating an account you agree to our </span>
+            <a href="#">terms&amp;privacy</a>
+            <button type="submit">sign up</button>
+            <button type="submit">cancel</button>
+        </form>
+        </div>
+<button onclick="window.location='file:///E:/project/india/india.html';" class="b1"> India</button>
+        
+        
+    </body>
+    
+</html> 
